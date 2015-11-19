@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MSI</Machine>
+    <WindowsUser>mateusz</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>67197e15-52bb-4035-9536-c82bc57c4e2f</PackageIdentityName>
+    <IntermediateOutputPath>D:\Moje_Programy\Weather\Weather\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Moje_Programy\Weather\Weather\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\bin\Debug\Weather.exe">
+      <PackagePath>Weather.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\-world-map-earth-global-continents-world.png">
+      <PackagePath>Assets\-world-map-earth-global-continents-world.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\Cloud2.png">
+      <PackagePath>Assets\Cloud2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\Cloud1.png">
+      <PackagePath>Assets\Cloud1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\0.png">
+      <PackagePath>Assets\white\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\1.png">
+      <PackagePath>Assets\white\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\10.png">
+      <PackagePath>Assets\white\10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\11.png">
+      <PackagePath>Assets\white\11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\12.png">
+      <PackagePath>Assets\white\12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\13.png">
+      <PackagePath>Assets\white\13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\14.png">
+      <PackagePath>Assets\white\14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\15.png">
+      <PackagePath>Assets\white\15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\16.png">
+      <PackagePath>Assets\white\16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\17.png">
+      <PackagePath>Assets\white\17.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\18.png">
+      <PackagePath>Assets\white\18.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\19.png">
+      <PackagePath>Assets\white\19.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\2.png">
+      <PackagePath>Assets\white\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\20.png">
+      <PackagePath>Assets\white\20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\21.png">
+      <PackagePath>Assets\white\21.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\22.png">
+      <PackagePath>Assets\white\22.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\23.png">
+      <PackagePath>Assets\white\23.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\24.png">
+      <PackagePath>Assets\white\24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\25.png">
+      <PackagePath>Assets\white\25.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\26.png">
+      <PackagePath>Assets\white\26.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\27.png">
+      <PackagePath>Assets\white\27.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\28.png">
+      <PackagePath>Assets\white\28.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\29.png">
+      <PackagePath>Assets\white\29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\3.png">
+      <PackagePath>Assets\white\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\30.png">
+      <PackagePath>Assets\white\30.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\31.png">
+      <PackagePath>Assets\white\31.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\32.png">
+      <PackagePath>Assets\white\32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\33.png">
+      <PackagePath>Assets\white\33.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\34.png">
+      <PackagePath>Assets\white\34.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\35.png">
+      <PackagePath>Assets\white\35.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\36.png">
+      <PackagePath>Assets\white\36.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\37.png">
+      <PackagePath>Assets\white\37.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\38.png">
+      <PackagePath>Assets\white\38.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\39.png">
+      <PackagePath>Assets\white\39.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\4.png">
+      <PackagePath>Assets\white\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\40.png">
+      <PackagePath>Assets\white\40.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\41.png">
+      <PackagePath>Assets\white\41.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\42.png">
+      <PackagePath>Assets\white\42.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\43.png">
+      <PackagePath>Assets\white\43.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\44.png">
+      <PackagePath>Assets\white\44.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\45.png">
+      <PackagePath>Assets\white\45.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\46.png">
+      <PackagePath>Assets\white\46.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\47.png">
+      <PackagePath>Assets\white\47.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\5.png">
+      <PackagePath>Assets\white\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\6.png">
+      <PackagePath>Assets\white\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\7.png">
+      <PackagePath>Assets\white\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\8.png">
+      <PackagePath>Assets\white\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\9.png">
+      <PackagePath>Assets\white\9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\Weather-is-Not-Fine-Still-Sunlight-is-Pouring-in-Boats-Enjoys-the-Highest-Level-of-Safety-on-Peaceful-Sea-HD-Natural-Scenery-Wallpaper.jpg">
+      <PackagePath>Assets\Weather-is-Not-Fine-Still-Sunlight-is-Pouring-in-Boats-Enjoys-the-Highest-Level-of-Safety-on-Peaceful-Sea-HD-Natural-Scenery-Wallpaper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\bin\Debug\View\WeatherControl.xbf">
+      <PackagePath>View\WeatherControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\bin\Debug\Weather.xr.xml">
+      <PackagePath>Weather.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

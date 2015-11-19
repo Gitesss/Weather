@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MSI</Machine>
+    <WindowsUser>mateusz</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>67197e15-52bb-4035-9536-c82bc57c4e2f</PackageIdentityName>
+    <IntermediateOutputPath>D:\Moje_Programy\Weather\Weather\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>B589B5466B5508E754C18AA0E74DE5BBF4BAAA95AA6F271200A377AF8CB31BB1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>67197e15-52bb-4035-9536-c82bc57c4e2f_1.0.0.0_neutral__p853sq73br73c</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>67197e15-52bb-4035-9536-c82bc57c4e2f_p853sq73br73c!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>67197e15-52bb-4035-9536-c82bc57c4e2f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=mateusz</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Moje_Programy\Weather\Weather\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-19T17:51:39.135</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\bin\Debug\Weather.exe">
+      <PackagePath>Weather.exe</PackagePath>
+      <Modified>2015-11-19T17:51:38.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\-world-map-earth-global-continents-world.png">
+      <PackagePath>Assets\-world-map-earth-global-continents-world.png</PackagePath>
+      <Modified>2015-11-19T17:11:08.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\Cloud2.png">
+      <PackagePath>Assets\Cloud2.png</PackagePath>
+      <Modified>2015-11-19T17:11:26.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\Cloud1.png">
+      <PackagePath>Assets\Cloud1.png</PackagePath>
+      <Modified>2015-11-19T17:11:21.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T05:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T05:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T05:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T05:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\0.png">
+      <PackagePath>Assets\white\0.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\1.png">
+      <PackagePath>Assets\white\1.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\10.png">
+      <PackagePath>Assets\white\10.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\11.png">
+      <PackagePath>Assets\white\11.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\12.png">
+      <PackagePath>Assets\white\12.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\13.png">
+      <PackagePath>Assets\white\13.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\14.png">
+      <PackagePath>Assets\white\14.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\15.png">
+      <PackagePath>Assets\white\15.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.624</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\16.png">
+      <PackagePath>Assets\white\16.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\17.png">
+      <PackagePath>Assets\white\17.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\18.png">
+      <PackagePath>Assets\white\18.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\19.png">
+      <PackagePath>Assets\white\19.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\2.png">
+      <PackagePath>Assets\white\2.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\20.png">
+      <PackagePath>Assets\white\20.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\21.png">
+      <PackagePath>Assets\white\21.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\22.png">
+      <PackagePath>Assets\white\22.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\23.png">
+      <PackagePath>Assets\white\23.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\24.png">
+      <PackagePath>Assets\white\24.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\25.png">
+      <PackagePath>Assets\white\25.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\26.png">
+      <PackagePath>Assets\white\26.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\27.png">
+      <PackagePath>Assets\white\27.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.739</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\28.png">
+      <PackagePath>Assets\white\28.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.743</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\29.png">
+      <PackagePath>Assets\white\29.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\3.png">
+      <PackagePath>Assets\white\3.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\30.png">
+      <PackagePath>Assets\white\30.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\31.png">
+      <PackagePath>Assets\white\31.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\32.png">
+      <PackagePath>Assets\white\32.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\33.png">
+      <PackagePath>Assets\white\33.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\34.png">
+      <PackagePath>Assets\white\34.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\35.png">
+      <PackagePath>Assets\white\35.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\36.png">
+      <PackagePath>Assets\white\36.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\37.png">
+      <PackagePath>Assets\white\37.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\38.png">
+      <PackagePath>Assets\white\38.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\39.png">
+      <PackagePath>Assets\white\39.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\4.png">
+      <PackagePath>Assets\white\4.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\40.png">
+      <PackagePath>Assets\white\40.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\41.png">
+      <PackagePath>Assets\white\41.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\42.png">
+      <PackagePath>Assets\white\42.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\43.png">
+      <PackagePath>Assets\white\43.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\44.png">
+      <PackagePath>Assets\white\44.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\45.png">
+      <PackagePath>Assets\white\45.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\46.png">
+      <PackagePath>Assets\white\46.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\47.png">
+      <PackagePath>Assets\white\47.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\5.png">
+      <PackagePath>Assets\white\5.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\6.png">
+      <PackagePath>Assets\white\6.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\7.png">
+      <PackagePath>Assets\white\7.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\8.png">
+      <PackagePath>Assets\white\8.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\white\9.png">
+      <PackagePath>Assets\white\9.png</PackagePath>
+      <Modified>2015-11-19T17:10:58.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\Assets\Weather-is-Not-Fine-Still-Sunlight-is-Pouring-in-Boats-Enjoys-the-Highest-Level-of-Safety-on-Peaceful-Sea-HD-Natural-Scenery-Wallpaper.jpg">
+      <PackagePath>Assets\Weather-is-Not-Fine-Still-Sunlight-is-Pouring-in-Boats-Enjoys-the-Highest-Level-of-Safety-on-Peaceful-Sea-HD-Natural-Scenery-Wallpaper.jpg</PackagePath>
+      <Modified>2015-11-19T17:11:15.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-11-19T17:42:49.473</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-11-19T17:51:37.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\bin\Debug\View\WeatherControl.xbf">
+      <PackagePath>View\WeatherControl.xbf</PackagePath>
+      <Modified>2015-11-19T17:51:37.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\bin\Debug\Weather.xr.xml">
+      <PackagePath>Weather.xr.xml</PackagePath>
+      <Modified>2015-11-19T17:42:49.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather\Weather\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-11-19T17:51:38.712</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

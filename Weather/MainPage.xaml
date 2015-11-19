@@ -1,0 +1,61 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Weather"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:View="using:Weather.View"
+    x:Class="Weather.MainPage"
+    mc:Ignorable="d"
+    xmlns:ViewModel="using:Weather.ViewModel">
+
+    <Page.Resources>
+        <ViewModel:ApplicationViewModel x:Name="ViewModel"/>
+
+        <ControlTemplate x:Key="ListBoxControlerTemplate" TargetType="ListBox"/>
+
+        <DataTemplate x:Key="ItemTemplate">
+            <StackPanel  Orientation="Vertical" Height="215" Width="100" Background="{ThemeResource AppBarToggleButtonCheckedPointerOverBorderThemeBrush}" Opacity="0.48">
+                <TextBlock Text="{Binding Day}"/>
+                <TextBlock Text="{Binding Date}"/>
+                <Image Margin="0,10,0,0" Width="60" Height="60" Stretch="Fill" Source="{Binding Image}"/>
+                <TextBlock Margin="0,10,0,0" >
+                    <Run Text="{Binding Low}"/>
+                    <Run Text="° / "/>
+                    <Run Text="{Binding High}"/>
+                    <Run Text="°"/>
+                </TextBlock>
+                <TextBlock TextWrapping="WrapWholeWords" Margin="0,10,0,0" Text="{Binding Text}" />
+            </StackPanel>
+        </DataTemplate>
+
+    </Page.Resources>
+
+
+    <Grid DataContext="{StaticResource ViewModel}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="539"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/Weather-is-Not-Fine-Still-Sunlight-is-Pouring-in-Boats-Enjoys-the-Highest-Level-of-Safety-on-Peaceful-Sea-HD-Natural-Scenery-Wallpaper.jpg"/>
+        </Grid.Background>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <View:WeatherControl  x:Name="WeatherControl" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Height="539" Width="822"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="0,20,0,0" >
+            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+                <ListBox Grid.Row="1" ItemsSource="{Binding WeatherDays}" Template="{StaticResource ListBoxControlerTemplate}" 
+                          ItemTemplate="{StaticResource ItemTemplate}">
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                </ListBox>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</Page>
