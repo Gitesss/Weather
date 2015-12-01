@@ -108,6 +108,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Common\BooleanNegationConverter.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Common\ObservableDictionary.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -121,6 +124,12 @@
     <Compile Include="ViewModel\ObservableObject.cs" />
     <Compile Include="View\WeatherControl.xaml.cs">
       <DependentUpon>WeatherControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FunUserConrol.xaml.cs">
+      <DependentUpon>FunUserConrol.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WindmillUserControl1.xaml.cs">
+      <DependentUpon>WindmillUserControl1.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -187,6 +196,8 @@
     <Content Include="Assets\white\7.png" />
     <Content Include="Assets\white\8.png" />
     <Content Include="Assets\white\9.png" />
+    <Content Include="Assets\Wind\fan-hi.png" />
+    <Content Include="Assets\Wind\stick-hi.png" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -198,6 +209,14 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="View\WeatherControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\FunUserConrol.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WindmillUserControl1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

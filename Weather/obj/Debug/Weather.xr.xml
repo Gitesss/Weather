@@ -32,6 +32,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Opacity" />
       <RootProperty Name="Children" />
+      <RootProperty Name="AreScrollSnapPointsRegular" />
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
@@ -48,6 +49,7 @@
       <RootProperty Name="Opacity" />
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="TextAlignment" />
+      <RootProperty Name="Style" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Margin" />
@@ -55,10 +57,12 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Stretch" />
       <RootProperty Name="Source" />
+      <RootProperty Name="RequestedTheme" />
       <RootProperty Name="Opacity" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="Projection" />
+      <RootProperty Name="UseLayoutRounding" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
@@ -92,6 +96,7 @@
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="Template" />
       <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="ItemsPanel" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
@@ -108,6 +113,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Resources" />
       <RootProperty Name="Content" />
     </RootType>
@@ -124,8 +131,23 @@
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EasingDoubleKeyFrame">
       <RootProperty Name="KeyTime" />
       <RootProperty Name="Value" />
+      <RootProperty Name="EasingFunction" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.PlaneProjection" />
-    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform" />
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="TranslateX" />
+      <RootProperty Name="TranslateY" />
+      <RootProperty Name="Rotation" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.PowerEase">
+      <RootProperty Name="EasingMode" />
+    </RootType>
+    <RootType FullName="Weather.View.FunUserConrol">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Weather.View.WindmillUserControl1" />
   </Roots.RootTypes>
 </Roots>

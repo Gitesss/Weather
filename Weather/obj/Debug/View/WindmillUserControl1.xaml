@@ -1,0 +1,20 @@
+﻿<UserControl
+    x:Class="Weather.View.WindmillUserControl1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Weather.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Wind &amp; Pressure" Margin="0,0,0,40" Style="{StaticResource SubheaderTextBlockStyle}" FontSize="40"/>
+            <StackPanel Orientation="Horizontal" Height="560">
+                <local:FunUserConrol x:Name="Fun" Height="606" Width="401" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50">hahahahahaah</TextBlock>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
+

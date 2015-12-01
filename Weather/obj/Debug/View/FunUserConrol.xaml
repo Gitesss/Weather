@@ -1,0 +1,31 @@
+﻿<UserControl
+    x:Class="Weather.View.FunUserConrol"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Weather.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="Auto" Width="auto" >
+	<UserControl.Resources>
+		<Storyboard x:Name="FunRun">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="image">
+				<EasingDoubleKeyFrame KeyTime="0" Value="-180">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<PowerEase EasingMode="EaseIn"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+				<EasingDoubleKeyFrame KeyTime="0:0:2" Value="180"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+
+    <Grid>
+        <Image Source="ms-appx:///Assets/Wind/stick-hi.png" Margin="156,280,160,0" />
+            <Image x:Name="image" Source="ms-appx:///Assets/Wind/fan-hi.png" RenderTransformOrigin="0.58,0.417" Margin="1.09200000762939,202,93.9069976806641,128.055999755859" UseLayoutRounding="False" d:LayoutRounding="Auto" >
+            	<Image.RenderTransform>
+            		<CompositeTransform TranslateX="21.028" TranslateY="-43.326" Rotation="-179"/>
+            	</Image.RenderTransform>
+            </Image>
+    </Grid>
+</UserControl>
+

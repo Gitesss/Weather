@@ -5,7 +5,7 @@
     xmlns:local="using:Weather.View"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" Width="821.5" Height="538.5">
+    mc:Ignorable="d" Width="auto" Height="auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 
 
     <UserControl.Resources>
@@ -181,11 +181,7 @@
     </UserControl.Resources>
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="353*"/>
-            <RowDefinition Height="187*"/>
-        </Grid.RowDefinitions>
-        <TextBlock x:Name="Temperature" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="{Binding Temperature}" VerticalAlignment="Top"  FontSize="106.667" FontFamily="Segoe UI Light" RenderTransformOrigin="0.5,0.5" Opacity="0">
+        <TextBlock x:Name="Temperature" HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding Temperature}" VerticalAlignment="Top"  FontSize="106.667" FontFamily="Segoe UI Light" RenderTransformOrigin="0.5,0.5" Opacity="0">
             <TextBlock.RenderTransform>
                 <CompositeTransform/>
             </TextBlock.RenderTransform>

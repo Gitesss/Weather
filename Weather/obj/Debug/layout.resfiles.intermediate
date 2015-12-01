@@ -53,8 +53,12 @@ Assets\white\6.png
 Assets\white\7.png
 Assets\white\8.png
 Assets\white\9.png
+Assets\Wind\fan-hi.png
+Assets\Wind\stick-hi.png
 Assets\-world-map-earth-global-continents-world.png
 App.xbf
 MainPage.xbf
+View\FunUserConrol.xbf
 View\WeatherControl.xbf
+View\WindmillUserControl1.xbf
 Weather.xr.xml

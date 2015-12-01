@@ -1,1 +1,1 @@
-D:\Moje_Programy\Weather\Weather\Weather.csproj;neutral
+D:\Moje_Programy\Weather1\Weather\Weather.csproj;neutral
