@@ -1,4 +1,5 @@
-﻿using Weather.Model;
+﻿using Windows.UI.Core.AnimationMetrics;
+using Weather.Model;
 using Weather.ViewModel;
 
 namespace Weather.ViewModel
@@ -50,5 +51,19 @@ namespace Weather.ViewModel
                 }
             }
         }
+
+        public string Wind
+        {
+            get { return _currentWeather.Wind; }
+            set
+            {
+                if (_currentWeather.Wind != value)
+                {
+                    _currentWeather.Wind = value;
+                    OnPropertyChanged("Wind");
+                }
+            }
+        }
+
     }
 }

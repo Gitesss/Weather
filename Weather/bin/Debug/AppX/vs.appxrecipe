@@ -20,13 +20,13 @@
     <AppXManifest Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-01T13:29:36.224</Modified>
+      <Modified>2015-12-02T15:03:20.402</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\Weather.exe">
       <PackagePath>Weather.exe</PackagePath>
-      <Modified>2015-12-01T13:29:35.314</Modified>
+      <Modified>2015-12-02T15:11:08.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\Assets\-world-map-earth-global-continents-world.png">
       <PackagePath>Assets\-world-map-earth-global-continents-world.png</PackagePath>
@@ -266,31 +266,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-12-01T10:13:22.865</Modified>
+      <Modified>2015-12-02T15:03:18.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-12-01T13:28:44.745</Modified>
+      <Modified>2015-12-02T15:03:18.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\View\WeatherControl.xbf">
       <PackagePath>View\WeatherControl.xbf</PackagePath>
-      <Modified>2015-12-01T10:13:22.865</Modified>
+      <Modified>2015-12-02T15:03:18.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\View\FunUserConrol.xbf">
       <PackagePath>View\FunUserConrol.xbf</PackagePath>
-      <Modified>2015-12-01T12:54:01.391</Modified>
+      <Modified>2015-12-02T15:03:18.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\View\WindmillUserControl1.xbf">
       <PackagePath>View\WindmillUserControl1.xbf</PackagePath>
-      <Modified>2015-12-01T12:54:01.392</Modified>
+      <Modified>2015-12-02T15:10:01.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\Weather.xr.xml">
       <PackagePath>Weather.xr.xml</PackagePath>
-      <Modified>2015-12-01T12:54:01.043</Modified>
+      <Modified>2015-12-02T14:45:35.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-12-01T13:29:35.693</Modified>
+      <Modified>2015-12-02T15:03:19.939</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

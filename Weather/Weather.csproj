@@ -103,6 +103,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -137,6 +138,7 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="Assets\white\Thumbs.db" />
+    <None Include="packages.config" />
     <None Include="Weather_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

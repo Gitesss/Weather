@@ -30,6 +30,7 @@ namespace Weather
             this.InitializeComponent();
             WeatherControl.DataContext = ViewModel.CurrentWeatherProperty;
             WeatherControl.Start();
+            Fun.DataContext = ViewModel.CurrentWeatherProperty;
         }
     }
 }

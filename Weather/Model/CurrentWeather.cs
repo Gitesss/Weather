@@ -5,5 +5,6 @@
         public string Country { get; set; }
         public string City { get; set; }
         public string Temperature { get; set; }
+        public string Wind { get; set; }
     }
 }

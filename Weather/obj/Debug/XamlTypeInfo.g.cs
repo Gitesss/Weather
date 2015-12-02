@@ -136,10 +136,10 @@ namespace Weather.Weather_XamlTypeInfo
             _typeNameTable[8] = "Weather.ViewModel.CurrentWeatherViewModel";
             _typeNameTable[9] = "Weather.View.WeatherControl";
             _typeNameTable[10] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[11] = "Weather.MainPage";
-            _typeNameTable[12] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[13] = "Weather.View.FunUserConrol";
-            _typeNameTable[14] = "Weather.View.WindmillUserControl1";
+            _typeNameTable[11] = "Weather.View.WindmillUserControl1";
+            _typeNameTable[12] = "Weather.MainPage";
+            _typeNameTable[13] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[14] = "Weather.View.FunUserConrol";
 
             _typeTable = new global::System.Type[15];
             _typeTable[0] = typeof(global::Weather.ViewModel.ApplicationViewModel);
@@ -153,10 +153,10 @@ namespace Weather.Weather_XamlTypeInfo
             _typeTable[8] = typeof(global::Weather.ViewModel.CurrentWeatherViewModel);
             _typeTable[9] = typeof(global::Weather.View.WeatherControl);
             _typeTable[10] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[11] = typeof(global::Weather.MainPage);
-            _typeTable[12] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[13] = typeof(global::Weather.View.FunUserConrol);
-            _typeTable[14] = typeof(global::Weather.View.WindmillUserControl1);
+            _typeTable[11] = typeof(global::Weather.View.WindmillUserControl1);
+            _typeTable[12] = typeof(global::Weather.MainPage);
+            _typeTable[13] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[14] = typeof(global::Weather.View.FunUserConrol);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -198,9 +198,9 @@ namespace Weather.Weather_XamlTypeInfo
         private object Activate_5_ObservableObject() { return new global::Weather.ViewModel.ObservableObject(); }
         private object Activate_8_CurrentWeatherViewModel() { return new global::Weather.ViewModel.CurrentWeatherViewModel(); }
         private object Activate_9_WeatherControl() { return new global::Weather.View.WeatherControl(); }
-        private object Activate_11_MainPage() { return new global::Weather.MainPage(); }
-        private object Activate_13_FunUserConrol() { return new global::Weather.View.FunUserConrol(); }
-        private object Activate_14_WindmillUserControl1() { return new global::Weather.View.WindmillUserControl1(); }
+        private object Activate_11_WindmillUserControl1() { return new global::Weather.View.WindmillUserControl1(); }
+        private object Activate_12_MainPage() { return new global::Weather.MainPage(); }
+        private object Activate_14_FunUserConrol() { return new global::Weather.View.FunUserConrol(); }
         private void VectorAdd_2_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Weather.ViewModel.DayViewModel>)instance;
@@ -298,27 +298,27 @@ namespace Weather.Weather_XamlTypeInfo
                 xamlType = new global::Weather.Weather_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  Weather.MainPage
-                userType = new global::Weather.Weather_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_MainPage;
+            case 11:   //  Weather.View.WindmillUserControl1
+                userType = new global::Weather.Weather_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_11_WindmillUserControl1;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  Windows.UI.Xaml.Controls.Page
+            case 12:   //  Weather.MainPage
+                userType = new global::Weather.Weather_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 13:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::Weather.Weather_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 13:   //  Weather.View.FunUserConrol
+            case 14:   //  Weather.View.FunUserConrol
                 userType = new global::Weather.Weather_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_13_FunUserConrol;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 14:   //  Weather.View.WindmillUserControl1
-                userType = new global::Weather.Weather_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_14_WindmillUserControl1;
+                userType.Activator = Activate_14_FunUserConrol;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

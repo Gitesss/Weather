@@ -22,8 +22,8 @@ namespace Weather.View
         public WindmillUserControl1()
         {
             this.InitializeComponent();
-            Fun.Start();
-            
+            Fun1.Start();
+            Fun2.Start();
         }
     }
 }

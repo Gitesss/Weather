@@ -31,19 +31,19 @@
 
     </Page.Resources>
 
+    <Grid DataContext="{StaticResource ViewModel}" >
 
-    <Grid DataContext="{StaticResource ViewModel}">
+
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" MinHeight="539"/>
+            <RowDefinition Height="Auto" />
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="Assets/Weather-is-Not-Fine-Still-Sunlight-is-Pouring-in-Boats-Enjoys-the-Highest-Level-of-Safety-on-Peaceful-Sea-HD-Natural-Scenery-Wallpaper.jpg"/>
         </Grid.Background>
-
-        <StackPanel Grid.Row="0" Orientation="Horizontal" AreScrollSnapPointsRegular="True">
-            <View:WeatherControl  x:Name="WeatherControl" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Height="539" Width="822"/>
-
+            <StackPanel  Grid.Row="0" Orientation="Horizontal" AreScrollSnapPointsRegular="True">
+                <View:WeatherControl  x:Name="WeatherControl" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Height="539" Width="822"/>
+            <View:WindmillUserControl1 x:Name="Fun" Margin="0,107,0,136" Width="522"   Foreground="Black"/>
         </StackPanel>
         <StackPanel Grid.Row="1" Margin="0,-50,0,0" Height="auto" Width="auto">
             <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" >

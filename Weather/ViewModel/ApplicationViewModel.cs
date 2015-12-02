@@ -57,12 +57,14 @@ namespace Weather.ViewModel
 
             var searchLocation = rssXml.Descendants(yWeatherNS + "location").FirstOrDefault();
             var searchTemperature = rssXml.Descendants(yWeatherNS + "condition").FirstOrDefault();
+            var searchWind = rssXml.Descendants(yWeatherNS + "wind").FirstOrDefault();
 
             CurrentWeatherViewModel currentWeatherViewModel = new CurrentWeatherViewModel()
             {
                 City = searchLocation.Attribute("city").Value,
                 Country = searchLocation.Attribute("country").Value,
-                Temperature = searchTemperature.Attribute("temp").Value + "°C"
+                Temperature = searchTemperature.Attribute("temp").Value + "°C",
+                Wind = searchWind.Attribute("speed").Value + " km/h"
             };
             CurrentWeatherProperty = currentWeatherViewModel;
         }
