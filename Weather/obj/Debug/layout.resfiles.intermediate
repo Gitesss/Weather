@@ -58,7 +58,8 @@ Assets\Wind\stick-hi.png
 Assets\-world-map-earth-global-continents-world.png
 App.xbf
 MainPage.xbf
-View\FunUserConrol.xbf
+View\FanUserConrol.xbf
+View\Options.xbf
 View\WeatherControl.xbf
 View\WindmillUserControl1.xbf
 Weather.xr.xml

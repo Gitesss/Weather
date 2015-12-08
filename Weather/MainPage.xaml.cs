@@ -16,6 +16,7 @@ using Windows.UI.Xaml.Navigation;
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
 using Weather.Model;
+using Weather.View;
 using Weather.ViewModel;
 
 namespace Weather
@@ -31,6 +32,16 @@ namespace Weather
             WeatherControl.DataContext = ViewModel.CurrentWeatherProperty;
             WeatherControl.Start();
             Fun.DataContext = ViewModel.CurrentWeatherProperty;
+        }
+
+        private void ShowOptions_OnClick(object sender, RoutedEventArgs e)
+        {
+            Button b = sender as Button;
+            if (b != null)
+            {
+                Options sf = new Options();
+                sf.ShowIndependent();
+            }
         }
     }
 }

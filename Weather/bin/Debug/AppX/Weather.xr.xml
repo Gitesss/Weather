@@ -33,15 +33,16 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Opacity" />
       <RootProperty Name="Children" />
-      <RootProperty Name="AreScrollSnapPointsRegular" />
-      <RootProperty Name="Margin" />
+      <RootProperty Name="Style" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
+      <RootProperty Name="SelectionHighlightColor" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Style" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
@@ -50,7 +51,6 @@
       <RootProperty Name="Opacity" />
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="TextAlignment" />
-      <RootProperty Name="Style" />
       <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
@@ -72,26 +72,49 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="DataContext" />
-      <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Background" />
+      <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
       <RootMethod Name="GetRowSpan" />
       <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
-      <RootProperty Name="Height" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="Stretch" />
       <RootProperty Name="ImageSource" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Weather.View.WeatherControl">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Weather.View.WindmillUserControl1">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalScrollBarVisibility" />
       <RootProperty Name="VerticalScrollBarVisibility" />
       <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListBox">
       <RootProperty Name="ItemsSource" />
@@ -103,19 +126,22 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
       <RootProperty Name="Template" />
     </RootType>
-    <RootType FullName="Weather.View.WeatherControl">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-    </RootType>
-    <RootType FullName="Weather.View.WindmillUserControl1">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Foreground" />
-    </RootType>
     <RootType FullName="Weather.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.SettingsFlyout">
+      <RootProperty Name="IconSource" />
+      <RootProperty Name="Title" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Text" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="SelectionHighlightColor" />
+      <RootProperty Name="Foreground" />
+      <RootEvent Name="KeyDown" />
+    </RootType>
+    <RootType FullName="Weather.View.Options" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />

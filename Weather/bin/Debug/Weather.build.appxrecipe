@@ -203,11 +203,14 @@
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\View\Options.xbf">
+      <PackagePath>View\Options.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\View\WeatherControl.xbf">
       <PackagePath>View\WeatherControl.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\View\FunUserConrol.xbf">
-      <PackagePath>View\FunUserConrol.xbf</PackagePath>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\View\FanUserConrol.xbf">
+      <PackagePath>View\FanUserConrol.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\View\WindmillUserControl1.xbf">
       <PackagePath>View\WindmillUserControl1.xbf</PackagePath>

@@ -1,0 +1,24 @@
+﻿<SettingsFlyout
+    x:Class="Weather.View.Options"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Weather.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    IconSource="Assets/SmallLogo.png"
+    Title="Options"
+    d:DesignWidth="346">
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Style="{StaticResource SettingsFlyoutSectionStyle}" >
+            <TextBlock Text="Find your Contry:" Style="{StaticResource SubtitleTextBlockStyle}"/>
+            <TextBox x:ConnectionId='1' x:Name="zipCodeTextBox" Text="Zip code" TextWrapping="Wrap" IsReadOnly="True" Margin="10,0,0,0" SelectionHighlightColor="{ThemeResource SettingsFlyoutHeaderBackgroundThemeBrush}" Foreground="#FFD9D7F7"                                  />
+            <Button x:Name="addButton"  Content="Add" HorizontalAlignment="Center"/>
+        </StackPanel>
+        <ListBox>
+        </ListBox>
+    </StackPanel>
+</SettingsFlyout>
+

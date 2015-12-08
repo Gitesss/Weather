@@ -123,11 +123,14 @@
     <Compile Include="ViewModel\CurrentWeatherViewModel.cs" />
     <Compile Include="ViewModel\DayViewModel.cs" />
     <Compile Include="ViewModel\ObservableObject.cs" />
+    <Compile Include="View\Options.xaml.cs">
+      <DependentUpon>Options.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\WeatherControl.xaml.cs">
       <DependentUpon>WeatherControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\FunUserConrol.xaml.cs">
-      <DependentUpon>FunUserConrol.xaml</DependentUpon>
+    <Compile Include="View\FanUserConrol.xaml.cs">
+      <DependentUpon>FanUserConrol.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\WindmillUserControl1.xaml.cs">
       <DependentUpon>WindmillUserControl1.xaml</DependentUpon>
@@ -210,11 +213,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="View\Options.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\WeatherControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\FunUserConrol.xaml">
+    <Page Include="View\FanUserConrol.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -7,7 +7,8 @@
     xmlns:View="using:Weather.View"
     x:Class="Weather.MainPage"
     mc:Ignorable="d"
-    xmlns:ViewModel="using:Weather.ViewModel">
+    xmlns:ViewModel="using:Weather.ViewModel"
+    >
 
     <Page.Resources>
         <ViewModel:ApplicationViewModel x:Name="ViewModel"/>
@@ -16,46 +17,43 @@
 
         <DataTemplate x:Key="ItemTemplate">
             <StackPanel  Orientation="Vertical" Height="215" Width="100" Background="{ThemeResource AppBarToggleButtonCheckedPointerOverBorderThemeBrush}" Opacity="0.48">
-                <TextBlock Text="{Binding Day}"/>
-                <TextBlock Text="{Binding Date}"/>
+                <TextBlock Text="{Binding Day}" SelectionHighlightColor="{ThemeResource AppBarItemBackgroundThemeBrush}"/>
+                <TextBlock Text="{Binding Date}" SelectionHighlightColor="{ThemeResource AppBarItemBackgroundThemeBrush}"/>
                 <Image Margin="0,10,0,0" Width="60" Height="60" Stretch="Fill" Source="{Binding Image}" RequestedTheme="Light"/>
-                <TextBlock Margin="0,10,0,0" >
+                <TextBlock Margin="0,10,0,0"  SelectionHighlightColor="{ThemeResource AppBarItemBackgroundThemeBrush}" >
                     <Run Text="{Binding Low}"/>
                     <Run Text="° / "/>
                     <Run Text="{Binding High}"/>
                     <Run Text="°"/>
                 </TextBlock>
-                <TextBlock TextWrapping="WrapWholeWords" Margin="0,10,0,0" Text="{Binding Text}" />
+                <TextBlock SelectionHighlightColor="{ThemeResource AppBarItemBackgroundThemeBrush}" TextWrapping="WrapWholeWords" Margin="0,10,0,0" Text="{Binding Text}" />
             </StackPanel>
         </DataTemplate>
 
     </Page.Resources>
 
-    <Grid DataContext="{StaticResource ViewModel}" >
-
-
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition/>
-        </Grid.RowDefinitions>
+    <Grid  DataContext="{StaticResource ViewModel}" >
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="Assets/Weather-is-Not-Fine-Still-Sunlight-is-Pouring-in-Boats-Enjoys-the-Highest-Level-of-Safety-on-Peaceful-Sea-HD-Natural-Scenery-Wallpaper.jpg"/>
         </Grid.Background>
-            <StackPanel  Grid.Row="0" Orientation="Horizontal" AreScrollSnapPointsRegular="True">
-                <View:WeatherControl  x:Name="WeatherControl" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Height="539" Width="822"/>
-            <View:WindmillUserControl1 x:Name="Fun" Margin="0,107,0,136" Width="522"   Foreground="Black"/>
-        </StackPanel>
-        <StackPanel Grid.Row="1" Margin="0,-50,0,0" Height="auto" Width="auto">
-            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" >
-                <ListBox Grid.Row="1" ItemsSource="{Binding WeatherDays}" Template="{StaticResource ListBoxControlerTemplate}" 
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+   
+       <View:WeatherControl  x:Name="WeatherControl" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Height="539" Width="822"/>
+        <View:WindmillUserControl1 x:Name="Fun"  Width="522"   Foreground="Black" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <ScrollViewer Grid.Row="1" Margin="0,-50,0,0" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" >
+            <ListBox ItemsSource="{Binding WeatherDays}" Template="{StaticResource ListBoxControlerTemplate}" 
                           ItemTemplate="{StaticResource ItemTemplate}" Margin="0">
-                    <ListBox.ItemsPanel>
-                        <ItemsPanelTemplate>
-                            <StackPanel Orientation="Horizontal"/>
-                        </ItemsPanelTemplate>
-                    </ListBox.ItemsPanel>
-                </ListBox>
-            </ScrollViewer>
-        </StackPanel>
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+            </ListBox>
+        </ScrollViewer>
+        <Button x:Name="showOptions" Grid.Row="0" Grid.Column="1" Content="Show SettingsFlyout" Margin="0,0,10,0" Click="ShowOptions_OnClick" VerticalAlignment="Top" HorizontalAlignment="Right"/>
     </Grid>
 </Page>
