@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\-world-map-earth-global-continents-world.png" />
+    <Content Include="Assets\1453756398_menu-alt.png" />
     <Content Include="Assets\Cloud2.png" />
     <Content Include="Assets\Cloud1.png" />
     <Content Include="Assets\Logo.scale-100.png" />
@@ -229,6 +230,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DB\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>

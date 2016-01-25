@@ -20,17 +20,21 @@
     <AppXManifest Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-08T13:19:55.589</Modified>
+      <Modified>2016-01-25T17:04:51.535</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\Weather.exe">
       <PackagePath>Weather.exe</PackagePath>
-      <Modified>2015-12-08T13:43:18.219</Modified>
+      <Modified>2016-01-25T17:04:50.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\Assets\-world-map-earth-global-continents-world.png">
       <PackagePath>Assets\-world-map-earth-global-continents-world.png</PackagePath>
       <Modified>2015-11-19T17:11:08.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\Assets\1453756398_menu-alt.png">
+      <PackagePath>Assets\1453756398_menu-alt.png</PackagePath>
+      <Modified>2016-01-25T15:14:11.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\Assets\Cloud2.png">
       <PackagePath>Assets\Cloud2.png</PackagePath>
@@ -270,15 +274,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-12-08T13:19:54.211</Modified>
+      <Modified>2016-01-25T16:40:20.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\View\Options.xbf">
       <PackagePath>View\Options.xbf</PackagePath>
-      <Modified>2015-12-08T13:43:17.405</Modified>
+      <Modified>2016-01-07T14:28:59.784</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\View\WeatherControl.xbf">
       <PackagePath>View\WeatherControl.xbf</PackagePath>
-      <Modified>2015-12-08T13:19:54.211</Modified>
+      <Modified>2016-01-25T16:40:20.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\View\FanUserConrol.xbf">
       <PackagePath>View\FanUserConrol.xbf</PackagePath>
@@ -290,11 +294,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\Weather.xr.xml">
       <PackagePath>Weather.xr.xml</PackagePath>
-      <Modified>2015-12-08T13:43:17.166</Modified>
+      <Modified>2016-01-25T16:40:20.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-12-08T13:19:55.199</Modified>
+      <Modified>2016-01-25T17:04:50.899</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

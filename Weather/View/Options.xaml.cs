@@ -66,6 +66,7 @@ namespace Weather.View
         
             if ("Zip code" == zipCodeTextBox.Text)
                 zipCodeTextBox.Text = String.Empty;
+           
         }
     }
 }

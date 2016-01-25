@@ -181,7 +181,7 @@
     </UserControl.Resources>
 
     <Grid>
-        <TextBlock x:Name="Temperature" HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding Temperature}" VerticalAlignment="Top"  FontSize="106.667" FontFamily="Segoe UI Light" RenderTransformOrigin="0.5,0.5" Opacity="0">
+        <TextBlock x:Name="Temperature" HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding Temperature}" VerticalAlignment="Top"  FontSize="106.667" FontFamily="Segoe UI Light" RenderTransformOrigin="0.5,0.5" Opacity="0" Foreground="White">
             <TextBlock.RenderTransform>
                 <CompositeTransform/>
             </TextBlock.RenderTransform>

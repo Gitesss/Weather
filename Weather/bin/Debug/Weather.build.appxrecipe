@@ -22,6 +22,9 @@
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\Assets\-world-map-earth-global-continents-world.png">
       <PackagePath>Assets\-world-map-earth-global-continents-world.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\Assets\1453756398_menu-alt.png">
+      <PackagePath>Assets\1453756398_menu-alt.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Moje_Programy\Weather1\Weather\Assets\Cloud2.png">
       <PackagePath>Assets\Cloud2.png</PackagePath>
     </AppxPackagedFile>

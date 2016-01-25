@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -42,6 +43,14 @@ namespace Weather
                 Options sf = new Options();
                 sf.ShowIndependent();
             }
+        }
+
+        private void TextBox_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            zipCodeText.Background = new SolidColorBrush(Colors.White);
+
+            if ("Wpisz ZipCode" == zipCodeText.Text)
+                zipCodeText.Text = String.Empty;
         }
     }
 }

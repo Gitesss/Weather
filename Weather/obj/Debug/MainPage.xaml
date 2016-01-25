@@ -32,29 +32,61 @@
 
     </Page.Resources>
 
-    <Grid  DataContext="{StaticResource ViewModel}" >
-        <Grid.Background>
-            <ImageBrush Stretch="Fill" ImageSource="Assets/Weather-is-Not-Fine-Still-Sunlight-is-Pouring-in-Boats-Enjoys-the-Highest-Level-of-Safety-on-Peaceful-Sea-HD-Natural-Scenery-Wallpaper.jpg"/>
-        </Grid.Background>
+    <ScrollViewer HorizontalScrollMode="Disabled"  VerticalScrollMode="Auto">
+        <Grid  DataContext="{StaticResource ViewModel}" >
+            <Grid.Background>
+                <ImageBrush ImageSource="ms-appx:/Assets/Weather-is-Not-Fine-Still-Sunlight-is-Pouring-in-Boats-Enjoys-the-Highest-Level-of-Safety-on-Peaceful-Sea-HD-Natural-Scenery-Wallpaper.jpg"/>
+            </Grid.Background>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="auto"/>
-        </Grid.RowDefinitions>
-   
-       <View:WeatherControl  x:Name="WeatherControl" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Height="539" Width="822"/>
-        <View:WindmillUserControl1 x:Name="Fun"  Width="522"   Foreground="Black" HorizontalAlignment="Right" VerticalAlignment="Center"/>
-        <ScrollViewer Grid.Row="1" Margin="0,-50,0,0" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" >
-            <ListBox ItemsSource="{Binding WeatherDays}" Template="{StaticResource ListBoxControlerTemplate}" 
-                          ItemTemplate="{StaticResource ItemTemplate}" Margin="0">
-                <ListBox.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <StackPanel Orientation="Horizontal"/>
-                    </ItemsPanelTemplate>
-                </ListBox.ItemsPanel>
-            </ListBox>
-        </ScrollViewer>
-        <Button x:ConnectionId='1' x:Name="showOptions" Grid.Row="0" Grid.Column="1" Content="Show SettingsFlyout" Margin="0,0,10,0"                             VerticalAlignment="Top" HorizontalAlignment="Right"/>
-    </Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Background="#FF1FB6A1" Orientation="Horizontal" Margin="0,-3,0,3">
+                <TextBlock Margin="20,0,20,0" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White">
+                    <TextBlock.SelectionHighlightColor>
+                        <SolidColorBrush Color="#FF4617B4" Opacity="0"/>
+                    </TextBlock.SelectionHighlightColor>Forecast:</TextBlock>
+                <TextBox x:ConnectionId='2' Text="Wpisz ZipCode"  Foreground="#FF7E93B2" x:Name="zipCodeText" VerticalAlignment="Center"  HorizontalAlignment="Center"                           >
+                    <TextBox.SelectionHighlightColor>
+                        <SolidColorBrush Color="#FF4617B4" Opacity="0"/>
+                    </TextBox.SelectionHighlightColor>
+                    <TextBox.Background>
+                        <SolidColorBrush Color="White" Opacity="0.5"/>
+                    </TextBox.Background>
+                </TextBox>
+                <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch">Wybierz</Button>
+            </StackPanel>
+            <View:WeatherControl Grid.Row="1" x:Name="WeatherControl" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Height="539" Width="822"/>
+            <View:WindmillUserControl1 Grid.Row="3" x:Name="Fun"  Width="522"   Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <ScrollViewer Grid.Row="2"  HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <ListBox ItemsSource="{Binding WeatherDays}" Template="{StaticResource ListBoxControlerTemplate}" 
+                          ItemTemplate="{StaticResource ItemTemplate}" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <ListBox.Background>
+                        <SolidColorBrush Color="#CC000000" Opacity="0"/>
+                    </ListBox.Background>
+                    <ListBox.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                </ListBox>
+            </ScrollViewer>
+            <Button x:ConnectionId='1' x:Name="showOptions" Grid.Row="0" Grid.Column="1"  Margin="0,0,10,0"                             VerticalAlignment="Stretch" HorizontalAlignment="Right">
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:/Assets/1453756398_menu-alt.png" Stretch="UniformToFill"/>
+                </Button.Background>
+                <Button.Foreground>
+                    <ImageBrush Stretch="Fill"/>
+                </Button.Foreground>
+                <Button.BorderBrush>
+                    <SolidColorBrush Color="Black" Opacity="0"/>
+                </Button.BorderBrush>
+            </Button>
+        </Grid>
+    </ScrollViewer>
 </Page>
 
